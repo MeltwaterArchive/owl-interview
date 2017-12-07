@@ -1,0 +1,66 @@
+{
+  "mappings": {
+    "tweet": {
+      "properties": {
+        "author": {
+          "properties": {
+            "displayName": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword",
+                  "ignore_above": 256
+                }
+              }
+            },
+            "followers": {
+              "type": "long"
+            },
+            "imageUrl": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword",
+                  "ignore_above": 256
+                }
+              }
+            },
+            "languageCode": {
+              "type": "keyword"
+            },
+            "userName": {
+              "type": "keyword"
+            }
+          }
+        },
+        "coordinates": {
+          "type": "geo_point"
+        },
+        "languageCode": {
+          "type": "keyword"
+        },
+        "publishDate": {
+          "type": "date" 
+        },
+        "text": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "url": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        }
+      }
+    }
+  }
+}
