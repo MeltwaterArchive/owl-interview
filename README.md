@@ -6,6 +6,13 @@ a user to understand twitter data. Which framework
 instructions on how to start the application, e.g. `npm start` or
 "simply open index.html".
 
+## Checking out and submitting
+
+After we've added you as a collaborator to the repository just clone 
+it and work on it locally. Once done, zip the working directory and 
+email the bundle to owl@meltwater.com
+
+
 ## Features
 
 Given a query for some text, we want to:
